@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  life_style_id: 1
+  title: MyString
+  url: MyString
+  description: MyText
+
+two:
+  life_style_id: 1
+  title: MyString
+  url: MyString
+  description: MyText

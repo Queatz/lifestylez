@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @life_style.user_id %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= image_tag @life_style.photo.url %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @life_style.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @life_style.description %>
+</p>
+
+<%= link_to 'Edit', edit_life_style_path(@life_style) %> |
+<%= link_to 'Back', life_styles_path %>
